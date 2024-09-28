@@ -1,0 +1,37 @@
+{
+  "name": "hono-rate-limiter-postgresql",
+  "version": "1.0.0",
+  "description": "A postgres store for hono-rate-limiter.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Daniel Zenner"
+  },
+  "license": "MIT",
+  "peerDependencies": {
+    "hono-rate-limiter": "^0.4.0"
+  },
+  "dependencies": {
+    "hono": "^4.6.2",
+    "hono-rate-limiter": "^0.4.0",
+    "postgres-pool": "^9.0.2"
+  },
+  "devDependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.6.2"
+  },
+  "keywords": [
+    "hono",
+    "postgres",
+    "postgresql",
+    "database",
+    "serverless",
+    "edge",
+    "rate-limiting",
+    "rate-limiter",
+    "honojs"
+  ]
+}
